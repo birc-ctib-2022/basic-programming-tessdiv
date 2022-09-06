@@ -1,9 +1,9 @@
 
 # You should write a loop around this question, and keep asking until
 # the answer is "yes" (lower case).
-n= input("Do you want to stop? ")
-while n!='yes': 
-    input("Do you want to stop?")
-while n == 'yes':
+n= input("Do you want to stop? ") #asks the initial question
+while n!='yes': #if n is not equal to yes, it will ask the question again 
+   n= input("Do you want to stop?")
+while n =='yes': #if n is yes, it will stop
     break
 
