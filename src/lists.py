@@ -43,7 +43,7 @@ match sys.argv[1]:
     case "mean":
        sum=[]
        for i in x: 
-        sum+=i
+        sum=i+1
         mean = sum/ len(x)
         print(mean)
 
