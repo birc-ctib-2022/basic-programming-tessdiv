@@ -54,12 +54,18 @@ match sys.argv[1]:
             times_three.append(i*3) #multiplies each value in list by 3
         print_list(times_three)
 
+    #also works 
+    #[3*i for i in x]
+
     case "even":
         # Put your solution to the third exercise here
         even = []
         for i in x: 
             if i % 2 ==0: #applies to only values in list that are evenly divisible by 2
                 even.append(i) #appends them to the new list even 
+        print_list(even)
+        #[i for i in x if i % 2 ==0]
+
         print_list(even)
 
     case _:
