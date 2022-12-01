@@ -7,7 +7,7 @@ if len(sys.argv) != 2:
 password = sys.argv[1]
 is_valid = False
 
-if len(password) >16 or len(password) <6: 
+if len(password) <16 or len(password) >6: 
     lowercase = False
     uppercase = False 
     numeric = False
