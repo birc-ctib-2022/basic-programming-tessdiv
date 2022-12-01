@@ -41,7 +41,7 @@ if len(sys.argv) < 2:
 
 match sys.argv[1]:
     case "mean":
-        sum = [] #create the empty list to add data to
+        sum = 0
         for i in x: #no need to put list, the list is x which will be a standard input 
             sum += i # adds each value in list 
         mean = sum/len(x) #defines mean 
