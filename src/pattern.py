@@ -1,18 +1,18 @@
 
 # Print the pattern
-J= []
-for i in range (5):
-    J.append("*")
-    print (*J)
-for i in range (5):
-    J.pop ()
-    print (*J)
+#J= []
+#for i in range (5):
+#    J.append("*")
+#    print (*J)
+#for i in range (5):
+#    J.pop ()
+#    print (*J)
 
 #ALSO WORKS
-#T= []
-#for i in range (5):
-#    T.append(str("*"))
-#    print (" ".join(T))
-#for i in range(5):
-#    T.pop ()
-#    print(" ".join(T))
+T= []
+for i in range (5):
+    T.append(str("*"))
+    print (" ".join(T))
+for i in range(5):
+    T.pop ()
+    print(" ".join(T))
